@@ -35,6 +35,7 @@ def turn(board)
   input=gets.chmod
   input_to_index
   if valid_move?
+    move
     display_board
   else
     turn
