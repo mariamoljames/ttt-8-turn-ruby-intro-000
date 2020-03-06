@@ -33,7 +33,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input=gets.chmod
-  input_to_index
+  input_to_index(input)
   if valid_move?
     move
     display_board
